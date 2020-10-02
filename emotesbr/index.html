@@ -139,7 +139,7 @@ https://www.youtube.com/yt/copyright/</p><br/>
 			  },
 			});
 			swiper.on('slideNextTransitionEnd', function() {
-				if (appendNumber < 185 && (swiper.activeIndex + 3) == appendNumber) {
+				if (appendNumber < 194 && (swiper.activeIndex + 3) == appendNumber) {
 					++appendNumber;
 					var emote = emotesArray[appendNumber-1];
 					var css_class = 'rcorners-epic';
@@ -155,6 +155,10 @@ https://www.youtube.com/yt/copyright/</p><br/>
 					if (emote.rarity == 3) {
 						css_class = 'rcorners-default';
 						css_class_btn = 'button-default';
+					}
+					if (emote.rarity == 4) {
+						css_class = 'rcorners-mseries';
+						css_class_btn = 'button-mseries';
 					}
 					//swiper.appendSlide('<div class="swiper-slide"><img src="icons/' + emote.image + '"/><br/><br/><img class="rcorners" src="skins/' + skinFileName + '"/></div>');
 					swiper.appendSlide('<div class="swiper-slide"><img class="' + css_class + '" src="icons/' + emote.image + '"/><br/><br/><button class="' + css_class_btn + '" onclick="showVideo(\'' + emote.video + '\')" type="button">Watch Video</button></div>');
