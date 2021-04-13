@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 	<head>
 		<title>Emotes for Battle Royale</title>
-		<meta name="description" content="Superhero Skins for Minecraft" />
+		<meta name="description" content="Emotes Skins for Minecraft" />
 		<link rel="icon" type="image/png" href="images/icon.png" />
 		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
 		<link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
@@ -139,7 +139,7 @@ https://www.youtube.com/yt/copyright/</p><br/>
 			  },
 			});
 			swiper.on('slideNextTransitionEnd', function() {
-				if (appendNumber < 194 && (swiper.activeIndex + 3) == appendNumber) {
+				if (appendNumber < 226 && (swiper.activeIndex + 3) == appendNumber) {
 					++appendNumber;
 					var emote = emotesArray[appendNumber-1];
 					var css_class = 'rcorners-epic';
@@ -159,6 +159,26 @@ https://www.youtube.com/yt/copyright/</p><br/>
 					if (emote.rarity == 4) {
 						css_class = 'rcorners-mseries';
 						css_class_btn = 'button-mseries';
+					}
+					if (emote.rarity == 5) {
+						css_class = 'rcorners-legendary';
+						css_class_btn = 'button-legendary';
+					}
+					if (emote.rarity == 6) {
+						css_class = 'rcorners-icon';
+						css_class_btn = 'button-icon';
+					}
+					if (emote.rarity == 7) {
+						css_class = 'rcorners-gaminglegends';
+						css_class_btn = 'button-gaminglegends';
+					}
+					if (emote.rarity == 8) {
+						css_class = 'rcorners-starwars';
+						css_class_btn = 'button-starwars';
+					}
+					if (emote.rarity == 9) {
+						css_class = 'rcorners-dcseries';
+						css_class_btn = 'button-dcseries';
 					}
 					//swiper.appendSlide('<div class="swiper-slide"><img src="icons/' + emote.image + '"/><br/><br/><img class="rcorners" src="skins/' + skinFileName + '"/></div>');
 					swiper.appendSlide('<div class="swiper-slide"><img class="' + css_class + '" src="icons/' + emote.image + '"/><br/><br/><button class="' + css_class_btn + '" onclick="showVideo(\'' + emote.video + '\')" type="button">Watch Video</button></div>');

@@ -450,6 +450,36 @@ body{
     background-color: #BF3132;
     padding: 10px;
 }
+.rcorners-legendary {
+    border-radius: 5px;
+    border: 1px solid #FF7605;
+    background-color: #FF7605;
+    padding: 10px;
+}
+.rcorners-icon {
+    border-radius: 5px;
+    border: 1px solid #008B8B;
+    background-color: #008B8B;
+    padding: 10px;
+}
+.rcorners-gaminglegends {
+    border-radius: 5px;
+    border: 1px solid #4236C4;
+    background-color: #4236C4;
+    padding: 10px;
+}
+.rcorners-starwars {
+    border-radius: 5px;
+    border: 1px solid #31312E;
+    background-color: #31312E;
+    padding: 10px;
+}
+.rcorners-dcseries{
+    border-radius: 5px;
+    border: 1px solid #2F4154;
+    background-color: #2F4154;
+    padding: 10px;
+}
 .rcorners-default{
     border-radius: 5px;
     border: 1px solid #A2A6A9;
@@ -499,6 +529,71 @@ body{
 .button-mseries {
     border-radius: 5px;
     background-color: #BF3132;
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button-legendary {
+    border-radius: 5px;
+    background-color: #FF7605;
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button-icon {
+    border-radius: 5px;
+    background-color: #008B8B;
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button-gaminglegends {
+    border-radius: 5px;
+    background-color: #4236C4;
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button-starwars {
+    border-radius: 5px;
+    background-color: #31312E;
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button-dcseries {
+    border-radius: 5px;
+    background-color: #2F4154;
     border: none;
     color: white;
     padding: 10px 20px 10px 20px;
