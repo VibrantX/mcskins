@@ -646,6 +646,17 @@ body{
   width: 50%;
 }
 
+.modal {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; 
+  height: 50%;
+  width: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
 #emote_video {
   height: 400px;
   margin-left: auto;

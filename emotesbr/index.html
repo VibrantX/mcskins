@@ -16,6 +16,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		
 		<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
 		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-218083992-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-218083992-1');
+		</script>
+
+		<script type="text/javascript">
+			var adfly_id = 24590875;
+			var adfly_advert = 'int';
+			var adfly_protocol = 'https';
+			var frequency_cap = 5;
+			var frequency_delay = 0;
+			var popunder = true;
+		</script>
+		<script src="https://cdn.adf.ly/js/entry.js"></script>
+		
 		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
 		<script src="js/swiper.min.js"></script>
 		
@@ -24,6 +44,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<script src="https://vjs.zencdn.net/7.4.1/video.js"></script>
 		<script type="text/javascript" src="magnific-popup.js"></script>
 		<script type="text/javascript" src="efbr.min.js"></script>
+
 	</head>
 	<body oncontextmenu="return false;">
 	<!----start-wrap---->
@@ -115,6 +136,10 @@ https://www.youtube.com/yt/copyright/</p><br/>
 
 		<script type="text/javascript">
 		$(document).ready(function(){
+			if(window.location.href.indexOf('#emote') != -1) {
+				let emoteImage = window.location.href.substr(window.location.href.indexOf('#emote')+6);
+				openModal(emoteImage);
+			}
 			document.addEventListener("contextmenu", function(e){
 				e.preventDefault();
 			}, false);
